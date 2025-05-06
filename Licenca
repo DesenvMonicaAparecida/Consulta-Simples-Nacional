@@ -1,0 +1,22 @@
+
+---
+
+### ✅ `.gitignore`
+
+Crie um arquivo chamado `.gitignore` com o seguinte conteúdo:
+
+```gitignore
+# Ignorar arquivos e pastas gerados por PyInstaller
+dist/
+build/
+*.spec
+
+# Cache do Python
+__pycache__/
+*.pyc
+
+# Ambiente virtual (opcional)
+venv/
+
+# Arquivos do VSCode
+.vscode/
